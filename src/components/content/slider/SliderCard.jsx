@@ -24,7 +24,7 @@ function Subtitle({ media }) {
 }
 
 // Componente principal de la tarjeta
-function SliderCard({ media, onPlayTrailer }) {
+function SliderCard({ media, onPlayTrailer = () => {}}) {
   return (
     <div
       className="slider-card"
@@ -68,7 +68,7 @@ SliderCard.propTypes = {
     director: PropTypes.string,
     seasons: PropTypes.number,
   }).isRequired,
-  onPlayTrailer: PropTypes.func.isRequired,
+  onPlayTrailer: PropTypes.func,
 };
 
 Tags.propTypes = {
