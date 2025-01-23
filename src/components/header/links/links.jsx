@@ -4,9 +4,9 @@ import DropdownMenu from "../dropmenu/dropmenu";
 const Links = () => {
   return (
     <nav className="navbar__links">
-      <a href="/">Inicio</a>
-      <a href="#paginaenconstruccion">Cine</a>
-      <a href="#paginaenconstruccion">Series</a>
+      <a className="link" href="/">Inicio</a>
+      <a className="link" href="#paginaenconstruccion">Cine</a>
+      <a className="link" href="#paginaenconstruccion">Series</a>
       <DropdownMenu />
     </nav>
   );
