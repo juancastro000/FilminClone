@@ -39,7 +39,7 @@ function Carousel({ title, fetchFunction }) {
       spaceBetween={15}
       slidesPerView={5} 
       slidesPerGroup={5}      
-      loop
+      loop= {false}
         className="carouselSwiper"
       >
         
