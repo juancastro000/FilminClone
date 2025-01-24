@@ -65,9 +65,16 @@ Navigate to the project directory by running the following command: **cd FilminC
 <br>
 
 Run the following command to install the project's dependencies using npm: **npm install** 
+
 <br>
 
-Start the server: **npm run dev**
+React play: **- npm install react-player**
+<br>
+
+Swiper: **- npm install swiper** 
+<br>
+
+Start server: **- npm run dev**
 <br>
 
 To use the movie project, you will need to set up some environment variables on your development machine. Here are the steps to follow:
@@ -127,8 +134,10 @@ This project is a **responsive movie app** inspired by Filmin, designed to showc
 - **Swiper**: for the slider and carousels.
 - **CSS**: for styling and design.
 - **TMDb API**: for fetching and displaying movie data.
-
-
+- 
+## 🚀Technologies Instalation:
+- **React play**: for multimedia.
+- **Swiper**: for the slider and carousels.
 <br>
 
 ## 🛠️ Tools:
@@ -232,6 +241,12 @@ Navegue hasta el directorio del proyecto ejecutando el siguiente comando:**cd Fi
 <br>
 
 Ejecute el siguiente comando para instalar las dependencias del proyecto usando npm: **npm install**
+<br>
+
+**React play**: - npm install react-player
+<br>
+
+**Swiper**: - npm install swiper 
 <br>
 
 Inicie el servidor: **npm run dev**
